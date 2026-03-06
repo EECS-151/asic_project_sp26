@@ -10,7 +10,6 @@ verilogSrc: &VERILOG_SRC
   - "src/Riscv151.sv"
   - "src/Memory151.sv"
   - "src/ExtMemModel.sv"
-  - "src/no_cache_mem.sv"
   - "src/Cache.sv"
   - "src/riscv_top.sv"
   - "src/riscv_arbiter.sv"
