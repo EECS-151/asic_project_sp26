@@ -19,7 +19,7 @@ def sra(a, b):
         return out
 
 def sext(a):
-    if not a & (1<<15):
+    if not a & (1<<11):
         return a
     else:
         return 0xffff0000 | (abs(a)&0xffff)
